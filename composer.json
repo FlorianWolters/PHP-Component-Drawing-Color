@@ -1,0 +1,29 @@
+{
+    "name": "florianwolters/component-drawing-color",
+    "description": "Models and operations on objects related to colors as a PHP component.",
+    "type": "library",
+    "keywords": ["color", "drawing", "conversion"],
+    "homepage": "http://github.com/FlorianWolters/PHP-Component-Drawing-Color",
+    "license": "LGPL-3.0+",
+    "authors": [
+      {
+        "name": "Florian Wolters",
+        "email": "wolters.fl@gmail.com",
+        "homepage": "http://blog.florianwolters.de",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "florianwolters/component-core-debugprint": "dev-master",
+        "florianwolters/component-core-valueobject": "dev-master"
+    },
+    "require-dev": {
+        "florianwolters/component-test": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "FlorianWolters": "src/php"
+        }
+    }
+}

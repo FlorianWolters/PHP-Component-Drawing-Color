@@ -1,0 +1,16 @@
+language: php
+
+php:
+  - 5.4
+
+before_script:
+  - composer install
+
+script: phpunit --coverage-text
+
+notifications:
+  email:
+    recipients:
+      - wolters.fl@gmail.com
+    on_success: change
+    on_failure: always

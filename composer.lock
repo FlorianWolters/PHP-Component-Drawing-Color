@@ -1,0 +1,367 @@
+{
+    "hash": "d8cbae9b941f842647aeb098e1d3a1d3",
+    "packages": [
+        {
+            "name": "florianwolters/component-core-cloneable",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FlorianWolters/PHP-Component-Core-Cloneable.git",
+                "reference": "v0.2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-Cloneable/zipball/v0.2.0",
+                "reference": "v0.2.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "FlorianWolters": [
+                        "src/php",
+                        "src/tests/mocks/php",
+                        "src/tests/unit-tests/php"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Wolters",
+                    "email": "wolters.fl@gmail.com",
+                    "homepage": "http://blog.florianwolters.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Allows and disallows the cloning of objects as a PHP component.",
+            "homepage": "http://github.com/FlorianWolters/PHP-Component-Core-Cloneable",
+            "keywords": [
+                "clone",
+                "cloning",
+                "creation"
+            ],
+            "time": "2013-03-19 16:49:12"
+        },
+        {
+            "name": "florianwolters/component-core-debugprint",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FlorianWolters/PHP-Component-Core-DebugPrint.git",
+                "reference": "63163e6db56a70f4afd54dfd277af03fd7c62d51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-DebugPrint/zipball/63163e6db56a70f4afd54dfd277af03fd7c62d51",
+                "reference": "63163e6db56a70f4afd54dfd277af03fd7c62d51",
+                "shasum": ""
+            },
+            "require": {
+                "florianwolters/component-core-hashcode": "0.2.*",
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "FlorianWolters": [
+                        "src/php",
+                        "src/tests/mocks/php"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Wolters",
+                    "email": "wolters.fl@gmail.com",
+                    "homepage": "http://blog.florianwolters.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Debug Print Method implementation pattern as a PHP component.",
+            "homepage": "http://github.com/FlorianWolters/PHP-Component-Core-DebugPrint",
+            "keywords": [
+                "debug",
+                "debug print method",
+                "language",
+                "pattern",
+                "tostring"
+            ],
+            "time": "2013-03-01 14:29:21"
+        },
+        {
+            "name": "florianwolters/component-core-equality",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FlorianWolters/PHP-Component-Core-Equality.git",
+                "reference": "v0.2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-Equality/zipball/v0.2.0",
+                "reference": "v0.2.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "FlorianWolters": [
+                        "src/php",
+                        "src/tests/mocks/php",
+                        "src/tests/unit-tests/php"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Wolters",
+                    "email": "wolters.fl@gmail.com",
+                    "homepage": "http://blog.florianwolters.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Implements equivalence relations on non-null object references as a PHP component.",
+            "homepage": "http://github.com/FlorianWolters/PHP-Component-Core-Equality",
+            "keywords": [
+                "comparison",
+                "core",
+                "equality",
+                "equals",
+                "reference equality",
+                "value equality"
+            ],
+            "time": "2013-03-22 12:31:35"
+        },
+        {
+            "name": "florianwolters/component-core-hashcode",
+            "version": "v0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FlorianWolters/PHP-Component-Core-HashCode.git",
+                "reference": "v0.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-HashCode/zipball/v0.2.1",
+                "reference": "v0.2.1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "FlorianWolters": [
+                        "src/php",
+                        "src/tests/mocks"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Wolters",
+                    "email": "wolters.fl@gmail.com",
+                    "homepage": "http://blog.florianwolters.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides a hash code value for objects as a PHP component.",
+            "homepage": "http://github.com/FlorianWolters/PHP-Component-Core-HashCode",
+            "keywords": [
+                "hash",
+                "language",
+                "object"
+            ],
+            "time": "2013-03-01 11:31:56"
+        },
+        {
+            "name": "florianwolters/component-core-immutable",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FlorianWolters/PHP-Component-Core-Immutable.git",
+                "reference": "v0.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-Immutable/zipball/v0.1.0",
+                "reference": "v0.1.0",
+                "shasum": ""
+            },
+            "require": {
+                "florianwolters/component-core-cloneable": "0.2.*",
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "FlorianWolters": [
+                        "src/php",
+                        "src/tests/mocks/php"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Wolters",
+                    "email": "wolters.fl@gmail.com",
+                    "homepage": "http://blog.florianwolters.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Immutable Object implementation pattern as a PHP component.",
+            "homepage": "http://github.com/FlorianWolters/PHP-Component-Core-Immutable",
+            "keywords": [
+                "core",
+                "immutable",
+                "immutable class",
+                "immutable object"
+            ],
+            "time": "2013-03-19 16:50:12"
+        },
+        {
+            "name": "florianwolters/component-core-valueobject",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FlorianWolters/PHP-Component-Core-ValueObject.git",
+                "reference": "c2559ffbd284baae5921a2c857ec407eca100692"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-ValueObject/zipball/c2559ffbd284baae5921a2c857ec407eca100692",
+                "reference": "c2559ffbd284baae5921a2c857ec407eca100692",
+                "shasum": ""
+            },
+            "require": {
+                "florianwolters/component-core-equality": "0.2.*",
+                "florianwolters/component-core-immutable": "0.1.*",
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "FlorianWolters": [
+                        "src/php",
+                        "src/tests/mocks/php"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Wolters",
+                    "email": "wolters.fl@gmail.com",
+                    "homepage": "http://blog.florianwolters.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Value Object implementation pattern as a PHP component.",
+            "homepage": "http://github.com/FlorianWolters/PHP-Component-Core-ValueObject",
+            "keywords": [
+                "Value Object",
+                "core"
+            ],
+            "time": "2013-03-27 17:12:06"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "florianwolters/component-test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FlorianWolters/PHP-Component-Test.git",
+                "reference": "8598144b0f4e67fe4f4a183f2d31494ea45920bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Test/zipball/8598144b0f4e67fe4f4a183f2d31494ea45920bf",
+                "reference": "8598144b0f4e67fe4f4a183f2d31494ea45920bf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "FlorianWolters": [
+                        "src/php",
+                        "src/tests/mocks/php",
+                        "src/tests/unit-tests/php"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Wolters",
+                    "email": "wolters.fl@gmail.com",
+                    "homepage": "http://blog.florianwolters.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A set of assert methods for PHPUnit.",
+            "homepage": "http://github.com/FlorianWolters/PHP-Component-Test",
+            "keywords": [
+                "assert",
+                "assertion",
+                "phpunit",
+                "test"
+            ],
+            "time": "2013-04-04 14:55:15"
+        }
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "florianwolters/component-core-debugprint": 20,
+        "florianwolters/component-core-valueobject": 20,
+        "florianwolters/component-test": 20
+    },
+    "platform": {
+        "php": ">=5.4"
+    },
+    "platform-dev": [
+
+    ]
+}
